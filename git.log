@@ -1,0 +1,96 @@
+    5  git auth login
+   10  git config --global user.name "vnestor7"
+   11  git config --global user.email "nviorel7@protonmail.com"
+   12  git push
+   15  sudo mkdir githubforwindows
+   16  cd githubforwindows/
+   20  git clone https://github.com/vnestor7/projecte-smx2b-2025-2026.git
+   21  git clone git@github.com:vnestor7/projecte-smx2b-2025-2026.git
+   23  git init
+   24  git add .
+   25  git commit -m "test github per windows"
+   26  git remote add origin https://github.com/vnestor7/projecte-smx2b-2025-2026.git
+   27  git branch -M main
+   28  git push -u origin main
+   29  git config --global credential.helper store
+   30  git push
+   36  git clone git@github.com:Inspalamos-SMX2B-2025-2026/01-git-basics-vnestor7.git
+   37  cd 01-git-basics-vnestor7/
+   41  git commit -h
+   45  git commit -m "Nou exe1"
+   46  git add README.md
+   47  git add exel.html 
+   48  git commit -m "Nou exe1"
+   49  git push
+   57  git commit -m "Nou exe2"
+   58  git add exe2.html 
+   59  git commit -m "Nou exe2"
+   60  git push help
+   61  git push -h
+   62  git push
+   69  git add exe1.html exe
+   70  git add exe1.html
+   72  git commit -m "Using Bootstrap"
+   75  git push
+   78  git add README.md 
+   79  git add exe2.html 
+   80  git commit -m "Using Bootstrap II"
+   81  git push 
+   82  git branch -h
+   83  git switch -h
+   84  git switch -c "web"
+   85  git switch main
+   86  git cp *
+   87  git switch web
+   89  git switch main 
+   91  git rm LICENSE exe*
+   92  git switch web
+   94  git status
+   95  git restore --staged *
+   96  git restore *
+  100  git switch main
+  103  git restore --staged *
+  104  git restore *
+  106  git restore --staged .
+  107  git restore .
+  110  git status
+  111  git status
+  113  cd 01-git-basics-vnestor7/
+  114  git switch main
+  116  cd 01-git-basics-vnestor7/
+  117  git switch -c "web"
+  118  git switch web
+  119  git mkdir arxius
+  120  git switch main
+  122  git switch web
+  124  git switch main
+  125  git rm exe*
+  126  git switch web
+  128  git restore .
+  129  git switch main
+  130  git restore .
+  132  git restore *
+  134  git restore exe2.html
+  135  git restore --staged .
+  137  git restore --staged exe*
+  138  git status
+  139  git restore *
+  140  git restore exe1.html exe2.html exel.html 
+  142  git switch web
+  143  git add .
+  144  git commit -m "arxius copia"
+  145  git add exe*
+  146  git commit -m "arxius copia"
+  147  git add exel.html exe1.html exe2.html 
+  148  git commit -m "arxius copia"
+  149  git push -u origin web
+  150  git switch main 
+  152  git rm exe1.html exel.html exe2.html 
+  153  git commit -m "nomes readme"
+  154  git push origin main
+  156  git pull origin main --rebase
+  157  git rebase --continue
+  158  git push origin main
+  159  git switch web
+  161  git switch main
+  163  history | grep git > git.log
